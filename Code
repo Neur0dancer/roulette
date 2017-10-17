@@ -2,6 +2,7 @@ from random import randint
 somme=100
 
 while somme>0:
+    print("vous disposez de ",somme," $")
     mise=int(input("votre mise?"))
     choix=int(input("votre choix?))
     pick=randint(0,50)
