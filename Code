@@ -4,7 +4,7 @@ somme=100
 while somme>0:
     print("vous disposez de ",somme," $")
     mise=int(input("votre mise?"))
-    choix=int(input("votre choix?))
+    choix=int(input("votre choix?"))
     pick=randint(0,50)
     print("la roulette donne ",pick)
     if choix==pick:
@@ -13,7 +13,7 @@ while somme>0:
     elif choix%2==0 and pick%2==0:
         print("vous gagnez ",mise/2," $")
         somme+=mise/2
-    elif choix%2=!0 and pick%2=!0:
+    elif choix%2!=0 and pick%2!=0:
         print("vous gagnez ",mise/2," $")
         somme+=mise/2
     else:
